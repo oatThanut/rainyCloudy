@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B4CDFC21E719B9900A793A6 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CDFC11E719B9900A793A6 /* WeatherCell.swift */; };
+		4B64D3BA1E70D06200DF6E5E /* Forcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B64D3B91E70D06200DF6E5E /* Forcast.swift */; };
 		4B6A098E1E6FA51900735273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A098D1E6FA51900735273 /* AppDelegate.swift */; };
 		4B6A09901E6FA51900735273 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A098F1E6FA51900735273 /* WeatherVC.swift */; };
 		4B6A09931E6FA51900735273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6A09911E6FA51900735273 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B4CDFC11E719B9900A793A6 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		4B64D3B91E70D06200DF6E5E /* Forcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forcast.swift; sourceTree = "<group>"; };
 		4B6A098A1E6FA51900735273 /* rainyShiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rainyShiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6A098D1E6FA51900735273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B6A098F1E6FA51900735273 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				4B6A09991E6FA51900735273 /* Info.plist */,
 				4BF3CE641E7002DE009BD658 /* Constants.swift */,
 				4BF3CE661E7005D1009BD658 /* CurrentWeather.swift */,
+				4B64D3B91E70D06200DF6E5E /* Forcast.swift */,
+				4B4CDFC11E719B9900A793A6 /* WeatherCell.swift */,
 			);
 			path = rainyShiny;
 			sourceTree = "<group>";
@@ -218,6 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6A09901E6FA51900735273 /* WeatherVC.swift in Sources */,
+				4B64D3BA1E70D06200DF6E5E /* Forcast.swift in Sources */,
+				4B4CDFC21E719B9900A793A6 /* WeatherCell.swift in Sources */,
 				4B6A098E1E6FA51900735273 /* AppDelegate.swift in Sources */,
 				4BF3CE671E7005D1009BD658 /* CurrentWeather.swift in Sources */,
 				4BF3CE651E7002DE009BD658 /* Constants.swift in Sources */,
